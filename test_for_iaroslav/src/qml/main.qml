@@ -1,14 +1,13 @@
-import QtQuick 2.0
-import QtQuick.Window 2.0
+import QtQuick 2.12
+import QtQuick.Window 2.12
 
-Window
-{
+Window {
     visible: true
-    width: 300
-    height: 240
+    minimumWidth: 640
+    minimumHeight: 480
+    width: 800
+    height: 600
+    title: qsTr("testik")
 
-    Rectangle {
-        anchors.fill: parent
-        color: "steelblue"
-    }
+    Browser {}
 }

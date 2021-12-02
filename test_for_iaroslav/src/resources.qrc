@@ -1,5 +1,8 @@
 <!DOCTYPE RCC><RCC version="1.0">
  <qresource>
     <file>qml/main.qml</file>
+    <file>qml/Browser.qml</file>
+    <file>qml/StyledLink.qml</file>
+    <file>qml/StyledTextInput.qml</file>
  </qresource>
 </RCC>
